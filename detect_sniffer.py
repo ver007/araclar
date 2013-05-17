@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-#Gokhan ALKAN galkan@bga.com.tr
+# Gokhan ALKAN galkan
 
 import sys
 
