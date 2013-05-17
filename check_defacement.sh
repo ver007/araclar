@@ -1,4 +1,5 @@
 #!/bin/bash
+# Galkan
 
 if [ ! $# -eq 2 ]
 then
