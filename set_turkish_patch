@@ -1,0 +1,62 @@
+--- cloner.py  2011-08-15 19:23:18.975554858 +0300
++++ cloner_new.py	2011-08-15 19:22:44.325554851 +0300
+@@ -118,6 +118,50 @@
+ 
+ # clean slate
+ 
++
++def bga(file_name):
++	"""
++		BGA http://www.bga.com.tr/
++	"""
++
++	try:
++		import re,os,shutil
++	except ImportError,e:
++		import sys
++		sys.stdout.write("%s" %e)   
++		sys.exit(1)
++
++	tmp_file = "index.html_tmp"
++	index_file = file_name
++
++	if os.path.exists(tmp_file):
++		os.remove(tmp_file)
++
++	if os.path.exists(index_file):
++
++		meta_reg = re.compile("(.*)(</head>$)")
++		replace_line = "<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />"
++
++		read_file = open(index_file, "r").read().splitlines()
++		write_tmp_file = open(tmp_file, "w")
++
++		for line in read_file:
++   			if re.search(meta_reg, line):
++				line_1 = re.search(meta_reg, line).group(1)
++				line_2 =  re.search(meta_reg, line).group(2) 
++	
++				write_tmp_file.write(line_1 + "\n")
++				write_tmp_file.write(replace_line + "\n")
++				write_tmp_file.write(line_2 + "\n")
++			else:
++				write_tmp_file.write(line + "\n")
++
++		write_tmp_file.close()
++	
++		os.remove(index_file)
++		shutil.move(tmp_file, index_file)
++
++
+ if template !="SELF":
+     if template != attack_vector:
+         subprocess.Popen("rm -rf src/webattack/web_clone/site/* 1> /dev/null 2> /dev/null", shell=True).wait()
+@@ -322,6 +366,8 @@
+                 if counter2 == 0:
+                     filewrite.write(line)
+ 
++            bga("src/webattack/web_clone/site/template/index.html.new")
++
+             # close the file after done writing
+             filewrite.close()
+ 
