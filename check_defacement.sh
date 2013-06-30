@@ -1,5 +1,5 @@
 #!/bin/bash
-# By Galkan 
+# By Galkan
 # twitter: @cigalkan
 
 if [ ! $# -eq 2 ]
