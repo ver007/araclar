@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*-
 # By Gokhan ALKAN, @cigalkan
 
+__author__ = 'Galkan'
+__version__ = '1.0'
+__date__ = '2013'
+
 try:
         import sys
         import socket
