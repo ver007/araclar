@@ -1,4 +1,6 @@
 #!/bin/bash
+# By Galkan 
+# twitter: @cigalkan
 
 subnet="$1"
 thread_count="$2"
