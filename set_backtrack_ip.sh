@@ -1,4 +1,6 @@
 #!/bin/bash
+# By Galkan 
+# twitter: @cigalkan
 
 function ip_adresi_al()
 {
