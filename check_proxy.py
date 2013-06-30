@@ -41,7 +41,8 @@ def print_proxy_auth (ip_addr, port):
                 sys.exit(3)
 
 ###
-### go Galkan go go go ...
+# By Galkan 
+# twitter: @cigalkan
 ###
 
 if __name__ == "__main__":
