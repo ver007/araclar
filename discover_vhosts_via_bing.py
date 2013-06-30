@@ -3,6 +3,11 @@
 # By Galkan, twitter: @cigalkan
 
 
+__author__ = 'Galkan'
+__version__ = '1.0'
+__date__ = '2013'
+
+
 try:
     	import socket
 	import struct
