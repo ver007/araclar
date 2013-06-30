@@ -1,12 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# By Galkan 
-# twitter: @cigalkan
+# By Galkan, twitter: @cigalkan
 
 
 try:
-        import socket
-        import struct
+    	import socket
+	import struct
 	import sys
 	import re
 	import urllib2
@@ -253,7 +252,7 @@ class Bing():
 
 
 ###			
-## Gokhan ALKAN, @cigalkan
+## By Galkan, @cigalkan
 ###
 
 if __name__ == '__main__':
@@ -277,4 +276,3 @@ if __name__ == '__main__':
 
     		for ip in ip_range.iprange(cidr_ip):
     			bing.get_result(ip, timeout)    	
-
