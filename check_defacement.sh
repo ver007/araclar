@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# By Galkan 
+# twitter: @cigalkan
 
 if [ ! $# -eq 2 ]
 then
