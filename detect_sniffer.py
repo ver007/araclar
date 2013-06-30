@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+# By Galkan 
+# twitter: @cigalkan
 
 import sys
 
