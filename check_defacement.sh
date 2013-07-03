@@ -1,6 +1,7 @@
 #!/bin/bash
-# By Galkan
-# twitter: @cigalkan
+# By Gokhan ALKAN
+# twitter: @cigalkan , web site: http://www.agguvenligi.net/
+
 
 if [ ! $# -eq 2 ]
 then
