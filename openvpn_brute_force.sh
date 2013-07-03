@@ -1,5 +1,6 @@
 #!/bin/bash
-# By Galkan, @cigalkan
+# By Gokhan ALKAN
+# twitter: @cigalkan , web site: http://www.agguvenligi.net/
 
 
 function brute_force()
