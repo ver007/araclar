@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# By Gokhan ALKAN, @cigalkan
+# By Gokhan ALKAN
+# twitter: @cigalkan , web site: http://www.agguvenligi.net/
 
 __author__ = 'Galkan'
 __version__ = '1.0'
