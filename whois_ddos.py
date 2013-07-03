@@ -3,7 +3,7 @@
 # By Gokhan ALKAN
 # twitter: @cigalkan , web site: http://www.agguvenligi.net/
 
-__author__ = 'Galkan'
+__author__ = 'Gokhan ALKAN, @cigalkan, http://www.agguvenligi.net/'
 __version__ = '1.0'
 __date__ = '2013'
 
